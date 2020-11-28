@@ -1,3 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #666;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#container {
+    background-color: white;
+    width: 673px;
+    height: 673px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 6px 4px 20px 8px rgba(255,255,255,1);
+}
+
+.box {
+    margin: 1px;
+    background-color: #333;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
 }
